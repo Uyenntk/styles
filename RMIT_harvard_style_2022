@@ -1,0 +1,1319 @@
+<RefTypes version="20">
+<RefType id="0" name="Journal Article (with author)">
+</RefType>
+<RefType id="1" name="Book">
+<Fields>
+<Field id="2" order="10">Author</Field>
+<Field id="3" order="20">Year</Field>
+<Field id="4" order="30">Title of Book</Field>
+<Field id="11" order="60">Place of Publication [if no DOI]</Field>
+<Field id="12" order="70">Name of Publisher</Field>
+<Field id="14" order="150">Edition [if not first]</Field>
+<Field id="24" order="210">ISBN</Field>
+<Field id="43" order="220">DOI [if available]</Field>
+<Field id="25" order="260">Contents</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="44" order="420">File Attachments</Field>
+</Fields>
+</RefType>
+<RefType id="2" name="Thesis or Dissertation">
+<Fields>
+<Field id="2" order="10">Author</Field>
+<Field id="3" order="20">Year</Field>
+<Field id="4" order="30">Title of Thesis/Dissertation</Field>
+<Field id="11" order="60">Location of University [if print/hardcopy]</Field>
+<Field id="12" order="70">Name of University</Field>
+<Field id="16" order="170">Thesis/Dissertation Type</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="20" order="410">URL [if online]</Field>
+<Field id="44" order="420">File Attachments</Field>
+<Field id="51" order="460">Accessed Date [if online]</Field>
+<Field id="47" order="490">Name of Database [if online]</Field>
+</Fields>
+</RefType>
+<RefType id="3" name=".Conference Proceedings">
+<Fields>
+<Field id="2" order="10">Author</Field>
+<Field id="3" order="20">Year of Conference</Field>
+<Field id="4" order="30">Title</Field>
+<Field id="10" order="40">Editor</Field>
+<Field id="6" order="50">Conference Name</Field>
+<Field id="11" order="60">Conference Location</Field>
+<Field id="12" order="70">Publisher</Field>
+<Field id="7" order="80">Volume</Field>
+<Field id="9" order="90">Number of Volumes</Field>
+<Field id="8" order="100">Issue</Field>
+<Field id="5" order="110">Pages</Field>
+<Field id="22" order="130">Series Editor</Field>
+<Field id="21" order="140">Series Title</Field>
+<Field id="14" order="150">Edition</Field>
+<Field id="17" order="160">Date</Field>
+<Field id="13" order="180">Sponsor</Field>
+<Field id="32" order="190">Short Title</Field>
+<Field id="24" order="210">ISBN</Field>
+<Field id="43" order="220">DOI</Field>
+<Field id="36" order="230">Source</Field>
+<Field id="25" order="260">Place Published</Field>
+<Field id="26" order="270">Year Published</Field>
+<Field id="27" order="280">Proceedings Title</Field>
+<Field id="33" order="300">Packaging Method</Field>
+<Field id="30" order="340">Accession Number</Field>
+<Field id="31" order="350">Call Number</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="20" order="410">URL</Field>
+<Field id="44" order="420">File Attachments</Field>
+<Field id="39" order="430">Author Address</Field>
+<Field id="40" order="440">Figure</Field>
+<Field id="41" order="450">Caption</Field>
+<Field id="51" order="460">Access Date</Field>
+<Field id="45" order="470">Translated Author</Field>
+<Field id="46" order="480">Translated Title</Field>
+<Field id="47" order="490">Name of Database</Field>
+<Field id="48" order="500">Database Provider</Field>
+<Field id="50" order="510">Language</Field>
+</Fields>
+</RefType>
+<RefType id="4" name="Radio">
+<Fields>
+<Field id="2" order="10">Presenter</Field>
+<Field id="3" order="20">Year</Field>
+<Field id="4" order="30">Title of Episode</Field>
+<Field id="6" order="50">Name of Program</Field>
+<Field id="11" order="60">Place of Production</Field>
+<Field id="12" order="70">Name of Station or Studio</Field>
+<Field id="17" order="160">Day Month</Field>
+<Field id="16" order="170">Format</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="44" order="420">File Attachments</Field>
+</Fields>
+</RefType>
+<RefType id="5" name="Newspaper Article (with author)">
+<Fields>
+<Field id="2" order="10">Author</Field>
+<Field id="3" order="20">Year</Field>
+<Field id="4" order="30">Title of Article</Field>
+<Field id="6" order="50">Name of Newspaper</Field>
+<Field id="17" order="160">Day Month</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="20" order="410">URL [if online]</Field>
+<Field id="44" order="420">File Attachments</Field>
+<Field id="51" order="460">Accessed Date [if online]</Field>
+<Field id="47" order="490">Name of Database [if online]</Field>
+</Fields>
+</RefType>
+<RefType id="6" name=".Computer Program">
+<Fields>
+<Field id="2" order="10">Programmer</Field>
+<Field id="3" order="20">Year</Field>
+<Field id="4" order="30">Title</Field>
+<Field id="10" order="40">Series Editor</Field>
+<Field id="6" order="50">Series Title</Field>
+<Field id="11" order="60">Place Published</Field>
+<Field id="12" order="70">Publisher</Field>
+<Field id="7" order="80">Edition</Field>
+<Field id="5" order="110">Description</Field>
+<Field id="14" order="150">Version</Field>
+<Field id="16" order="170">Type</Field>
+<Field id="32" order="190">Short Title</Field>
+<Field id="29" order="200">Alternate Title</Field>
+<Field id="24" order="210">ISBN</Field>
+<Field id="43" order="220">DOI</Field>
+<Field id="36" order="230">Contents</Field>
+<Field id="25" order="260">Computer</Field>
+<Field id="30" order="340">Accession Number</Field>
+<Field id="31" order="350">Call Number</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="20" order="410">URL</Field>
+<Field id="44" order="420">File Attachments</Field>
+<Field id="39" order="430">Author Address</Field>
+<Field id="40" order="440">Figure</Field>
+<Field id="41" order="450">Caption</Field>
+<Field id="51" order="460">Access Date</Field>
+<Field id="45" order="470">Translated Author</Field>
+<Field id="46" order="480">Translated Title</Field>
+<Field id="47" order="490">Name of Database</Field>
+<Field id="48" order="500">Database Provider</Field>
+<Field id="50" order="510">Language</Field>
+</Fields>
+</RefType>
+<RefType id="7" name="Book Chapter">
+<Fields>
+<Field id="2" order="10">Author</Field>
+<Field id="3" order="20">Year</Field>
+<Field id="4" order="30">Title of Chapter</Field>
+<Field id="10" order="40">Editor</Field>
+<Field id="6" order="50">Title of Book</Field>
+<Field id="11" order="60">Place of Publication [if no DOI]</Field>
+<Field id="12" order="70">Name of Publisher</Field>
+<Field id="14" order="150">Edition [if not first]</Field>
+<Field id="24" order="210">ISBN</Field>
+<Field id="43" order="220">DOI [if available]</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="44" order="420">File Attachments</Field>
+</Fields>
+</RefType>
+<RefType id="8" name=".Magazine Article">
+<Fields>
+<Field id="2" order="10">Author</Field>
+<Field id="3" order="20">Year</Field>
+<Field id="4" order="30">Title</Field>
+<Field id="6" order="50">Magazine</Field>
+<Field id="11" order="60">Place Published</Field>
+<Field id="12" order="70">Publisher</Field>
+<Field id="7" order="80">Volume</Field>
+<Field id="9" order="90">Frequency</Field>
+<Field id="8" order="100">Issue Number</Field>
+<Field id="5" order="110">Pages</Field>
+<Field id="35" order="120">Start Page</Field>
+<Field id="14" order="150">Edition</Field>
+<Field id="17" order="160">Date</Field>
+<Field id="16" order="170">Type of Article</Field>
+<Field id="32" order="190">Short Title</Field>
+<Field id="29" order="200">Alternate Magazine</Field>
+<Field id="24" order="210">ISSN</Field>
+<Field id="43" order="220">DOI</Field>
+<Field id="36" order="230">Original Publication</Field>
+<Field id="37" order="240">Reprint Edition</Field>
+<Field id="38" order="250">Reviewed Item</Field>
+<Field id="30" order="340">Accession Number</Field>
+<Field id="31" order="350">Call Number</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="20" order="410">URL</Field>
+<Field id="44" order="420">File Attachments</Field>
+<Field id="39" order="430">Author Address</Field>
+<Field id="40" order="440">Figure</Field>
+<Field id="41" order="450">Caption</Field>
+<Field id="51" order="460">Access Date</Field>
+<Field id="45" order="470">Translated Author</Field>
+<Field id="46" order="480">Translated Title</Field>
+<Field id="47" order="490">Name of Database</Field>
+<Field id="48" order="500">Database Provider</Field>
+<Field id="50" order="510">Language</Field>
+</Fields>
+</RefType>
+<RefType id="9" name="Edited Book">
+<Fields>
+<Field id="2" order="10">Editor</Field>
+<Field id="3" order="20">Year</Field>
+<Field id="4" order="30">Title of Book</Field>
+<Field id="11" order="60">Place of Publication [if no DOI]</Field>
+<Field id="12" order="70">Name of Publisher</Field>
+<Field id="14" order="150">Edition [if not first]</Field>
+<Field id="24" order="210">ISBN</Field>
+<Field id="43" order="220">DOI [if available]</Field>
+<Field id="25" order="260">Contents</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="44" order="420">File Attachments</Field>
+</Fields>
+</RefType>
+<RefType id="10" name="YouTube Video and Other Online Streaming Videos">
+<Fields>
+<Field id="2" order="10">Creator/Owner</Field>
+<Field id="3" order="20">Year</Field>
+<Field id="4" order="30">Title of Video</Field>
+<Field id="6" order="50">Name of Website</Field>
+<Field id="12" order="70">Name of Channel or Owning Organisation</Field>
+<Field id="17" order="160">Day Month</Field>
+<Field id="16" order="170">Format</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="20" order="410">URL</Field>
+<Field id="44" order="420">File Attachments</Field>
+<Field id="51" order="460">Accessed Date</Field>
+</Fields>
+</RefType>
+<RefType id="11" name="Map">
+<Fields>
+<Field id="2" order="10">Cartographer</Field>
+<Field id="3" order="20">Year of Creation</Field>
+<Field id="4" order="30">Title of Map</Field>
+<Field id="6" order="50">Name of Website [if online]</Field>
+<Field id="11" order="60">Place of Publication [if print/hardcopy]</Field>
+<Field id="12" order="70">Name of Publisher [if print/hardcopy]</Field>
+<Field id="16" order="170">Format</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="20" order="410">URL [if online]</Field>
+<Field id="44" order="420">File Attachments</Field>
+<Field id="40" order="440">Figure</Field>
+<Field id="41" order="450">Caption</Field>
+<Field id="51" order="460">Accessed Date [if online]</Field>
+</Fields>
+</RefType>
+<RefType id="12" name="Newspaper Article (no author)">
+<Fields>
+<Field id="3" order="20">Year</Field>
+<Field id="4" order="30">Name of Newspaper</Field>
+<Field id="6" order="50">Title of Article</Field>
+<Field id="25" order="260">Day Month</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="20" order="410">URL [if online]</Field>
+<Field id="44" order="420">File Attachments</Field>
+<Field id="51" order="460">Accessed Date [if online]</Field>
+<Field id="47" order="490">Name of Database [if online]</Field>
+</Fields>
+</RefType>
+<RefType id="13" name="Artwork">
+<Fields>
+<Field id="2" order="10">Artist</Field>
+<Field id="3" order="20">Year</Field>
+<Field id="4" order="30">Title or Description of Work</Field>
+<Field id="6" order="50">Name of Website [if online]</Field>
+<Field id="11" order="60">Location of Museum/Gallery [if in-person]</Field>
+<Field id="12" order="70">Name of Museum/Gallery [if in-person]</Field>
+<Field id="16" order="170">Format</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="20" order="410">URL [if online]</Field>
+<Field id="44" order="420">File Attachments</Field>
+<Field id="40" order="440">Figure</Field>
+<Field id="41" order="450">Caption</Field>
+<Field id="51" order="460">Accessed Date [if online]</Field>
+</Fields>
+</RefType>
+<RefType id="14" name=".Unused 1">
+<Fields/>
+</RefType>
+<RefType id="15" name="Patent">
+<Fields>
+<Field id="2" order="10">Inventor</Field>
+<Field id="3" order="20">Year Issued</Field>
+<Field id="4" order="30">Title of Patent</Field>
+<Field id="11" order="60">Issuing Country</Field>
+<Field id="8" order="100">Patent Number</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="20" order="410">URL</Field>
+<Field id="44" order="420">File Attachments</Field>
+<Field id="51" order="460">Accessed Date</Field>
+</Fields>
+</RefType>
+<RefType id="16" name="Website/Webpage">
+<Fields>
+<Field id="2" order="10">Author [Tip: if org. name abbrev., put here]</Field>
+<Field id="3" order="20">Year</Field>
+<Field id="4" order="30">Title of Webpage</Field>
+<Field id="10" order="40">Org. Author [full name of abbrev. name]</Field>
+<Field id="6" order="50">Name of Website</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="20" order="410">URL</Field>
+<Field id="44" order="420">File Attachments</Field>
+<Field id="51" order="460">Accessed Date</Field>
+</Fields>
+</RefType>
+<RefType id="17" name="Bill">
+<Fields>
+<Field id="3" order="20">Year</Field>
+<Field id="4" order="30">Title of Bill</Field>
+<Field id="11" order="60">Abbreviated Jurisdiction</Field>
+<Field id="35" order="120">Pinpoint [if applicable]</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="44" order="420">File Attachments</Field>
+</Fields>
+</RefType>
+<RefType id="18" name="Blog or Blog Post (no author)">
+<Fields>
+<Field id="3" order="20">Year</Field>
+<Field id="4" order="30">Name of Blog</Field>
+<Field id="6" order="50">Title of Post</Field>
+<Field id="17" order="160">Day Month</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="20" order="410">URL</Field>
+<Field id="44" order="420">File Attachments</Field>
+<Field id="51" order="460">Accessed Date</Field>
+</Fields>
+</RefType>
+<RefType id="19" name=".Hearing">
+<Fields>
+<Field id="3" order="20">Year</Field>
+<Field id="4" order="30">Title</Field>
+<Field id="6" order="50">Committee</Field>
+<Field id="11" order="60">Place Published</Field>
+<Field id="12" order="70">Publisher</Field>
+<Field id="9" order="90">Number of Volumes</Field>
+<Field id="8" order="100">Document Number</Field>
+<Field id="5" order="110">Pages</Field>
+<Field id="21" order="140">Legislative Body</Field>
+<Field id="14" order="150">Session</Field>
+<Field id="17" order="160">Date</Field>
+<Field id="32" order="190">Short Title</Field>
+<Field id="24" order="210">ISBN</Field>
+<Field id="43" order="220">DOI</Field>
+<Field id="36" order="230">History</Field>
+<Field id="26" order="270">Congress Number</Field>
+<Field id="30" order="340">Accession Number</Field>
+<Field id="31" order="350">Call Number</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="20" order="410">URL</Field>
+<Field id="44" order="420">File Attachments</Field>
+<Field id="39" order="430">Author Address</Field>
+<Field id="40" order="440">Figure</Field>
+<Field id="41" order="450">Caption</Field>
+<Field id="51" order="460">Access Date</Field>
+<Field id="45" order="470">Translated Author</Field>
+<Field id="46" order="480">Translated Title</Field>
+<Field id="47" order="490">Name of Database</Field>
+<Field id="48" order="500">Database Provider</Field>
+<Field id="50" order="510">Language</Field>
+</Fields>
+</RefType>
+<RefType id="20" name="Student's Own Work (previously submitted)">
+<Fields>
+<Field id="2" order="10">Student</Field>
+<Field id="3" order="20">Year</Field>
+<Field id="4" order="30">Title of Previous Work</Field>
+<Field id="11" order="60">Location of University</Field>
+<Field id="12" order="70">Name of University</Field>
+<Field id="16" order="170">Format</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="44" order="420">File Attachments</Field>
+</Fields>
+</RefType>
+<RefType id="21" name="Film/Movie (with acknowledged director)">
+<Fields>
+<Field id="2" order="10">Director</Field>
+<Field id="3" order="20">Year of Release</Field>
+<Field id="4" order="30">Title of Film/Movie</Field>
+<Field id="11" order="60">Place of Production</Field>
+<Field id="12" order="70">Name of Studio or Publisher</Field>
+<Field id="16" order="170">Format</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Synopsis</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="44" order="420">File Attachments</Field>
+</Fields>
+</RefType>
+<RefType id="22" name="Act of Parliament (Legislation)">
+<Fields>
+<Field id="3" order="20">Year</Field>
+<Field id="4" order="30">Title of Act</Field>
+<Field id="11" order="60">Abbreviated Jurisdiction</Field>
+<Field id="35" order="120">Pinpoint [if applicable]</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="44" order="420">File Attachments</Field>
+</Fields>
+</RefType>
+<RefType id="23" name=".Unused 2">
+<Fields/>
+</RefType>
+<RefType id="24" name=".Unused 3">
+<Fields/>
+</RefType>
+<RefType id="25" name=".Figure">
+<Fields>
+<Field id="2" order="10">Created By</Field>
+<Field id="3" order="20">Year</Field>
+<Field id="4" order="30">Title</Field>
+<Field id="10" order="40">Name of File</Field>
+<Field id="6" order="50">Image Source Program</Field>
+<Field id="11" order="60">Place Published</Field>
+<Field id="12" order="70">Publisher</Field>
+<Field id="7" order="80">Image Size</Field>
+<Field id="8" order="100">Number</Field>
+<Field id="5" order="110">Description</Field>
+<Field id="14" order="150">Version</Field>
+<Field id="17" order="160">Date</Field>
+<Field id="16" order="170">Type of Image</Field>
+<Field id="43" order="220">DOI</Field>
+<Field id="30" order="340">Accession Number</Field>
+<Field id="31" order="350">Call Number</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="20" order="410">URL</Field>
+<Field id="44" order="420">File Attachments</Field>
+<Field id="39" order="430">Author Address</Field>
+<Field id="40" order="440">Figure</Field>
+<Field id="41" order="450">Caption</Field>
+<Field id="51" order="460">Access Date</Field>
+<Field id="45" order="470">Translated Author</Field>
+<Field id="46" order="480">Translated Title</Field>
+<Field id="47" order="490">Name of Database</Field>
+<Field id="48" order="500">Database Provider</Field>
+<Field id="50" order="510">Language</Field>
+</Fields>
+</RefType>
+<RefType id="26" name="Organisational Report">
+<Fields>
+<Field id="2" order="10">Author [Tip: if org. name abbrev., put here]</Field>
+<Field id="3" order="20">Year</Field>
+<Field id="4" order="30">Title of Report</Field>
+<Field id="10" order="40">Org. Author [full name of abbrev. name]</Field>
+<Field id="6" order="50">Name of Website</Field>
+<Field id="8" order="100">Report Number [if available]</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="20" order="410">URL</Field>
+<Field id="44" order="420">File Attachments</Field>
+<Field id="51" order="460">Accessed Date</Field>
+</Fields>
+</RefType>
+<RefType id="27" name=".Equation">
+<Fields>
+<Field id="2" order="10">Created By</Field>
+<Field id="3" order="20">Year</Field>
+<Field id="4" order="30">Title</Field>
+<Field id="10" order="40">Name of File</Field>
+<Field id="6" order="50">Image Source Program</Field>
+<Field id="11" order="60">Place Published</Field>
+<Field id="12" order="70">Publisher</Field>
+<Field id="7" order="80">Image Size</Field>
+<Field id="8" order="100">Number</Field>
+<Field id="5" order="110">Description</Field>
+<Field id="14" order="150">Version</Field>
+<Field id="17" order="160">Date</Field>
+<Field id="16" order="170">Type of Image</Field>
+<Field id="43" order="220">DOI</Field>
+<Field id="30" order="340">Accession Number</Field>
+<Field id="31" order="350">Call Number</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="20" order="410">URL</Field>
+<Field id="44" order="420">File Attachments</Field>
+<Field id="39" order="430">Author Address</Field>
+<Field id="40" order="440">Figure</Field>
+<Field id="41" order="450">Caption</Field>
+<Field id="51" order="460">Access Date</Field>
+<Field id="45" order="470">Translated Author</Field>
+<Field id="46" order="480">Translated Title</Field>
+<Field id="47" order="490">Name of Database</Field>
+<Field id="48" order="500">Database Provider</Field>
+<Field id="50" order="510">Language</Field>
+</Fields>
+</RefType>
+<RefType id="28" name="Journal Article (no author)">
+<Fields>
+<Field id="3" order="20">Year</Field>
+<Field id="4" order="30">Name of Journal</Field>
+<Field id="6" order="50">Title of Article</Field>
+<Field id="7" order="80">Volume</Field>
+<Field id="8" order="100">Issue</Field>
+<Field id="5" order="110">Start Page-End Page</Field>
+<Field id="43" order="220">DOI [if available]</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="20" order="410">URL</Field>
+<Field id="44" order="420">File Attachments</Field>
+<Field id="51" order="460">Accessed Date</Field>
+<Field id="47" order="490">Name of Database</Field>
+</Fields>
+</RefType>
+<RefType id="29" name="Film/Movie (no acknowledged director)">
+<Fields>
+<Field id="2" order="10">Producer</Field>
+<Field id="3" order="20">Year of Release</Field>
+<Field id="4" order="30">Title of Film/Movie</Field>
+<Field id="11" order="60">Place of Production</Field>
+<Field id="12" order="70">Name of Studio or Publisher</Field>
+<Field id="16" order="170">Format</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Synopsis</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="44" order="420">File Attachments</Field>
+</Fields>
+</RefType>
+<RefType id="30" name=".Online Database">
+<Fields>
+<Field id="2" order="10">Author</Field>
+<Field id="3" order="20">Year</Field>
+<Field id="4" order="30">Title</Field>
+<Field id="6" order="50">Periodical</Field>
+<Field id="11" order="60">Place Published</Field>
+<Field id="12" order="70">Publisher</Field>
+<Field id="7" order="80">Volume</Field>
+<Field id="5" order="110">Pages</Field>
+<Field id="14" order="150">Date Published</Field>
+<Field id="17" order="160">Date Accessed</Field>
+<Field id="16" order="170">Type of Work</Field>
+<Field id="24" order="210">Report Number</Field>
+<Field id="43" order="220">DOI</Field>
+<Field id="30" order="340">Accession Number</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="20" order="410">URL</Field>
+<Field id="44" order="420">File Attachments</Field>
+<Field id="39" order="430">Author Address</Field>
+<Field id="40" order="440">Figure</Field>
+<Field id="41" order="450">Caption</Field>
+<Field id="45" order="470">Translated Author</Field>
+<Field id="46" order="480">Translated Title</Field>
+<Field id="47" order="490">Name of Database</Field>
+<Field id="48" order="500">Database Provider</Field>
+<Field id="50" order="510">Language</Field>
+</Fields>
+</RefType>
+<RefType id="31" name="Generic">
+<Fields>
+<Field id="2" order="10">Author</Field>
+<Field id="3" order="20">Year</Field>
+<Field id="4" order="30">Title</Field>
+<Field id="10" order="40">Secondary Author</Field>
+<Field id="6" order="50">Secondary Title</Field>
+<Field id="11" order="60">Place Published</Field>
+<Field id="12" order="70">Publisher</Field>
+<Field id="7" order="80">Volume</Field>
+<Field id="9" order="90">Number of Volumes</Field>
+<Field id="8" order="100">Number</Field>
+<Field id="5" order="110">Pages</Field>
+<Field id="35" order="120">Section</Field>
+<Field id="22" order="130">Tertiary Author</Field>
+<Field id="21" order="140">Tertiary Title</Field>
+<Field id="14" order="150">Edition</Field>
+<Field id="17" order="160">Date</Field>
+<Field id="16" order="170">Type of Work</Field>
+<Field id="13" order="180">Subsidiary Author</Field>
+<Field id="32" order="190">Short Title</Field>
+<Field id="29" order="200">Alternate Title</Field>
+<Field id="24" order="210">ISBN/ISSN</Field>
+<Field id="43" order="220">DOI</Field>
+<Field id="36" order="230">Original Publication</Field>
+<Field id="37" order="240">Reprint Edition</Field>
+<Field id="38" order="250">Reviewed Item</Field>
+<Field id="25" order="260">Custom 1</Field>
+<Field id="26" order="270">Custom 2</Field>
+<Field id="27" order="280">Custom 3</Field>
+<Field id="28" order="290">Custom 4</Field>
+<Field id="33" order="300">Custom 5</Field>
+<Field id="34" order="310">Custom 6</Field>
+<Field id="42" order="320">Custom 7</Field>
+<Field id="52" order="330">Custom 8</Field>
+<Field id="30" order="340">Accession Number</Field>
+<Field id="31" order="350">Call Number</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="20" order="410">URL</Field>
+<Field id="44" order="420">File Attachments</Field>
+<Field id="39" order="430">Author Address</Field>
+<Field id="40" order="440">Figure</Field>
+<Field id="41" order="450">Caption</Field>
+<Field id="51" order="460">Access Date</Field>
+<Field id="45" order="470">Translated Author</Field>
+<Field id="46" order="480">Translated Title</Field>
+<Field id="47" order="490">Name of Database</Field>
+<Field id="48" order="500">Database Provider</Field>
+<Field id="50" order="510">Language</Field>
+</Fields>
+</RefType>
+<RefType id="32" name="Government Report">
+<Fields>
+<Field id="2" order="10">Author [Tip: if org. name abbrev., put here]</Field>
+<Field id="3" order="20">Year</Field>
+<Field id="4" order="30">Title of Report</Field>
+<Field id="10" order="40">Org. Author [full name of abbrev. name]</Field>
+<Field id="8" order="100">Report Number [if available]</Field>
+<Field id="26" order="270">Name of Government Agency</Field>
+<Field id="27" order="280">Name of Government</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="20" order="410">URL</Field>
+<Field id="44" order="420">File Attachments</Field>
+<Field id="51" order="460">Accessed Date</Field>
+</Fields>
+</RefType>
+<RefType id="33" name="Conference Paper">
+<Fields>
+<Field id="2" order="10">Author</Field>
+<Field id="3" order="20">Year of Conference</Field>
+<Field id="4" order="30">Title of Paper</Field>
+<Field id="6" order="50">Name of Conference</Field>
+<Field id="11" order="60">Place of Conference</Field>
+<Field id="17" order="160">Day Month of Conference</Field>
+<Field id="16" order="170">Format</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="20" order="410">URL</Field>
+<Field id="44" order="420">File Attachments</Field>
+<Field id="51" order="460">Accessed Date</Field>
+<Field id="47" order="490">Name of Database</Field>
+</Fields>
+</RefType>
+<RefType id="34" name=".Online Multimedia">
+<Fields>
+<Field id="2" order="10">Created By</Field>
+<Field id="3" order="20">Year</Field>
+<Field id="4" order="30">Title</Field>
+<Field id="10" order="40">Series Editor</Field>
+<Field id="6" order="50">Series Title</Field>
+<Field id="11" order="60">Place Published</Field>
+<Field id="12" order="70">Distributor</Field>
+<Field id="9" order="90">Date Recorded</Field>
+<Field id="8" order="100">Number of Screens</Field>
+<Field id="5" order="110">Short URL</Field>
+<Field id="35" order="120">Embed URL</Field>
+<Field id="22" order="130">Contributors</Field>
+<Field id="14" order="150">Time Stamp</Field>
+<Field id="17" order="160">Date Accessed</Field>
+<Field id="16" order="170">Type of Work</Field>
+<Field id="32" order="190">Short Title</Field>
+<Field id="43" order="220">DOI</Field>
+<Field id="25" order="260">Year Cited</Field>
+<Field id="26" order="270">Date Cited</Field>
+<Field id="33" order="300">Format/Length</Field>
+<Field id="30" order="340">Accession Number</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="20" order="410">URL</Field>
+<Field id="44" order="420">File Attachments</Field>
+<Field id="39" order="430">Author Address</Field>
+<Field id="40" order="440">Figure</Field>
+<Field id="41" order="450">Caption</Field>
+<Field id="45" order="470">Translated Author</Field>
+<Field id="46" order="480">Translated Title</Field>
+<Field id="47" order="490">Name of Database</Field>
+<Field id="48" order="500">Database Provider</Field>
+<Field id="50" order="510">Language</Field>
+</Fields>
+</RefType>
+<RefType id="35" name="Television Program (no acknowledged director)">
+<Fields>
+<Field id="2" order="10">Producer</Field>
+<Field id="3" order="20">Year of Release</Field>
+<Field id="4" order="30">Title of Episode</Field>
+<Field id="6" order="50">Name of Series [if applicable]</Field>
+<Field id="11" order="60">Place of Production</Field>
+<Field id="12" order="70">Name of Station or Studio</Field>
+<Field id="7" order="80">Season Number</Field>
+<Field id="8" order="100">Episode Number</Field>
+<Field id="16" order="170">Format</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Synopsis</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="44" order="420">File Attachments</Field>
+</Fields>
+</RefType>
+<RefType id="36" name="Legal Case">
+<Fields>
+<Field id="3" order="20">Year</Field>
+<Field id="4" order="30">Name of Case</Field>
+<Field id="7" order="80">Volume Number of Report Series</Field>
+<Field id="9" order="90">Abbreviation of Report Series</Field>
+<Field id="5" order="110">Page Number Where Case Begins</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="44" order="420">File Attachments</Field>
+</Fields>
+</RefType>
+<RefType id="37" name="Lecture Notes or Course Material">
+<Fields>
+<Field id="2" order="10">Lecturer OR 'RMIT Creds' [if micro-cred]</Field>
+<Field id="3" order="20">Year</Field>
+<Field id="4" order="30">Title of Course Material</Field>
+<Field id="11" order="60">Location of University</Field>
+<Field id="12" order="70">Name of University</Field>
+<Field id="16" order="170">Type of Course Material</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="44" order="420">File Attachments</Field>
+</Fields>
+</RefType>
+<RefTypeX id="38" name="Brochure or Pamphlet">
+<Fields>
+<Field id="2" order="10">Author [Tip: if org. name abbrev., put here]</Field>
+<Field id="3" order="20">Year</Field>
+<Field id="4" order="30">Title of Brochure or Pamphlet</Field>
+<Field id="10" order="40">Org. Author [full name of abbrev. name]</Field>
+<Field id="11" order="60">Place of Publication</Field>
+<Field id="12" order="70">Name of Publisher</Field>
+<Field id="16" order="170">Format</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="44" order="420">File Attachments</Field>
+</Fields>
+</RefTypeX>
+<RefTypeX id="39" name=".Dictionary">
+<Fields>
+<Field id="2" order="10">Author</Field>
+<Field id="3" order="20">Year</Field>
+<Field id="4" order="30">Title</Field>
+<Field id="10" order="40">Editor</Field>
+<Field id="6" order="50">Dictionary Title</Field>
+<Field id="11" order="60">Place Published</Field>
+<Field id="12" order="70">Publisher</Field>
+<Field id="7" order="80">Volume</Field>
+<Field id="9" order="90">Number of Volumes</Field>
+<Field id="8" order="100">Number</Field>
+<Field id="5" order="110">Pages</Field>
+<Field id="35" order="120">Version</Field>
+<Field id="14" order="150">Edition</Field>
+<Field id="16" order="170">Type of Work</Field>
+<Field id="13" order="180">Translator</Field>
+<Field id="32" order="190">Short Title</Field>
+<Field id="29" order="200">Abbreviation</Field>
+<Field id="24" order="210">ISBN</Field>
+<Field id="43" order="220">DOI</Field>
+<Field id="36" order="230">Original Publication</Field>
+<Field id="37" order="240">Reprint Edition</Field>
+<Field id="38" order="250">Reviewed Item</Field>
+<Field id="25" order="260">Term</Field>
+<Field id="30" order="340">Accession Number</Field>
+<Field id="31" order="350">Call Number</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="20" order="410">URL</Field>
+<Field id="44" order="420">File Attachments</Field>
+<Field id="39" order="430">Author Address</Field>
+<Field id="40" order="440">Figure</Field>
+<Field id="41" order="450">Caption</Field>
+<Field id="51" order="460">Access Date</Field>
+<Field id="45" order="470">Translated Author</Field>
+<Field id="46" order="480">Translated Title</Field>
+<Field id="47" order="490">Name of Database</Field>
+<Field id="48" order="500">Database Provider</Field>
+<Field id="50" order="510">Language</Field>
+</Fields>
+</RefTypeX>
+<RefTypeX id="40" name="Encyclopedia or Dictionary Entry">
+<Fields>
+<Field id="2" order="10">Author</Field>
+<Field id="3" order="20">Year</Field>
+<Field id="4" order="30">Title of Entry</Field>
+<Field id="10" order="40">Editor [if edited]</Field>
+<Field id="6" order="50">Title of Encyclopedia or Dictionary</Field>
+<Field id="11" order="60">Place of Publication [if no DOI]</Field>
+<Field id="12" order="70">Name of Publisher</Field>
+<Field id="14" order="150">Edition [if not first]</Field>
+<Field id="24" order="210">ISBN</Field>
+<Field id="43" order="220">DOI [if available]</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="20" order="410">URL</Field>
+<Field id="44" order="420">File Attachments</Field>
+</Fields>
+</RefTypeX>
+<RefTypeX id="41" name="Company, Industry or Market Report">
+<Fields>
+<Field id="2" order="10">Author [Tip: if org. name abbrev., put here]</Field>
+<Field id="3" order="20">Year</Field>
+<Field id="4" order="30">Title of Report</Field>
+<Field id="10" order="40">Org. Author [full name of abbrev. name]</Field>
+<Field id="6" order="50">Name of Website</Field>
+<Field id="8" order="100">Report Number [if available]</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="20" order="410">URL</Field>
+<Field id="44" order="420">File Attachments</Field>
+<Field id="51" order="460">Accessed Date</Field>
+<Field id="47" order="490">Name of Database</Field>
+</Fields>
+</RefTypeX>
+<RefType id="42" name="Australian Bureau of Statistics (ABS) Report">
+<Fields>
+<Field id="2" order="10">Author [put abbrev. name - ABS]</Field>
+<Field id="3" order="20">Year</Field>
+<Field id="4" order="30">Title of Report</Field>
+<Field id="10" order="40">Author [full name of abbrev. name]</Field>
+<Field id="6" order="50">Name of Website</Field>
+<Field id="8" order="100">Catalogue Number [if available]</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="20" order="410">URL</Field>
+<Field id="44" order="420">File Attachments</Field>
+<Field id="51" order="460">Accessed Date</Field>
+</Fields>
+</RefType>
+<RefType id="43" name="Blog or Blog Post (with author)">
+<Fields>
+<Field id="2" order="10">Author</Field>
+<Field id="3" order="20">Year</Field>
+<Field id="4" order="30">Title of Post</Field>
+<Field id="6" order="50">Name of Blog</Field>
+<Field id="17" order="160">Day Month</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="20" order="410">URL</Field>
+<Field id="44" order="420">File Attachments</Field>
+<Field id="51" order="460">Accessed Date</Field>
+</Fields>
+</RefType>
+<RefType id="44" name="Exhibition Catalog">
+<Fields>
+<Field id="2" order="10">Author [Tip: if org. name abbrev., put here]</Field>
+<Field id="3" order="20">Year of Publication</Field>
+<Field id="4" order="30">Title of Exhibition</Field>
+<Field id="10" order="40">Org. Author [full name of abbrev. name]</Field>
+<Field id="11" order="60">Place of Publication</Field>
+<Field id="12" order="70">Name of Publisher</Field>
+<Field id="17" order="160">Day Month Year of Exhibition</Field>
+<Field id="16" order="170">Format</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="44" order="420">File Attachments</Field>
+</Fields>
+</RefType>
+<RefType id="45" name=".Pamphlet">
+<Fields>
+<Field id="2" order="10">Author</Field>
+<Field id="3" order="20">Year</Field>
+<Field id="4" order="30">Title</Field>
+<Field id="10" order="40">Institution</Field>
+<Field id="6" order="50">Published Source</Field>
+<Field id="11" order="60">Place Published</Field>
+<Field id="12" order="70">Publisher</Field>
+<Field id="7" order="80">Number</Field>
+<Field id="8" order="100">Series Volume</Field>
+<Field id="5" order="110">Pages</Field>
+<Field id="35" order="120">Number of Pages</Field>
+<Field id="14" order="150">Edition</Field>
+<Field id="17" order="160">Date</Field>
+<Field id="16" order="170">Type of Work</Field>
+<Field id="13" order="180">Translator</Field>
+<Field id="32" order="190">Short Title</Field>
+<Field id="29" order="200">Abbreviation</Field>
+<Field id="24" order="210">ISBN</Field>
+<Field id="43" order="220">DOI</Field>
+<Field id="36" order="230">Original Publication</Field>
+<Field id="37" order="240">Reprint Edition</Field>
+<Field id="33" order="300">Packaging Method</Field>
+<Field id="30" order="340">Accession Number</Field>
+<Field id="31" order="350">Call Number</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="20" order="410">URL</Field>
+<Field id="44" order="420">File Attachments</Field>
+<Field id="39" order="430">Author Address</Field>
+<Field id="40" order="440">Figure</Field>
+<Field id="41" order="450">Caption</Field>
+<Field id="51" order="460">Access Date</Field>
+<Field id="45" order="470">Translated Author</Field>
+<Field id="46" order="480">Translated Title</Field>
+<Field id="47" order="490">Name of Database</Field>
+<Field id="48" order="500">Database Provider</Field>
+<Field id="50" order="510">Language</Field>
+</Fields>
+</RefType>
+<RefType id="46" name="Musical Composition/Sound Recording - Song">
+<Fields>
+<Field id="2" order="10">Creator/Artist/Band</Field>
+<Field id="3" order="20">Year</Field>
+<Field id="4" order="30">Title of Song/Track</Field>
+<Field id="6" order="50">Title of Compilation/Album</Field>
+<Field id="12" order="70">Name of Publisher [if non-online]</Field>
+<Field id="21" order="140">Name of Website [if online]</Field>
+<Field id="16" order="170">Format</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="20" order="410">URL [if online]</Field>
+<Field id="44" order="420">File Attachments</Field>
+<Field id="51" order="460">Accessed Date [if online]</Field>
+</Fields>
+</RefType>
+<RefType id="47" name="Standard">
+<Fields>
+<Field id="2" order="10">Author [Tip: if org. name abbrev., put here]</Field>
+<Field id="3" order="20">Year</Field>
+<Field id="4" order="30">Title of Standard</Field>
+<Field id="10" order="40">Org. Author [full name of abbrev. name]</Field>
+<Field id="8" order="100">Standard Number</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="20" order="410">URL</Field>
+<Field id="44" order="420">File Attachments</Field>
+<Field id="51" order="460">Accessed Date</Field>
+<Field id="47" order="490">Name of Database</Field>
+</Fields>
+</RefType>
+<RefType id="48" name="Data Set">
+<Fields>
+<Field id="2" order="10">Author [Tip: if org. name abbrev., put here]</Field>
+<Field id="3" order="20">Year</Field>
+<Field id="4" order="30">Title of Data Set</Field>
+<Field id="10" order="40">Org. Author [full name of abbrev. name]</Field>
+<Field id="6" order="50">Name of Website</Field>
+<Field id="16" order="170">Format</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="20" order="410">URL</Field>
+<Field id="44" order="420">File Attachments</Field>
+<Field id="51" order="460">Accessed Date</Field>
+</Fields>
+</RefType>
+<RefType id="49" name="Webpage Document (PDF)">
+<Fields>
+<Field id="2" order="10">Author [Tip: if org. name abbrev., put here]</Field>
+<Field id="3" order="20">Year</Field>
+<Field id="4" order="30">Title of Document</Field>
+<Field id="10" order="40">Org. Author [full name of abbrev. name]</Field>
+<Field id="6" order="50">Name of Website</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="20" order="410">URL</Field>
+<Field id="44" order="420">File Attachments</Field>
+<Field id="51" order="460">Accessed Date</Field>
+</Fields>
+</RefType>
+<RefType id="50" name="Musical Composition/Sound Recording - Compilation/Album">
+<Fields>
+<Field id="2" order="10">Creator/Artist/Band</Field>
+<Field id="3" order="20">Year</Field>
+<Field id="4" order="30">Title of Compilation/Album</Field>
+<Field id="6" order="50">Name of Website [if online]</Field>
+<Field id="12" order="70">Name of Publisher [if non-online]</Field>
+<Field id="16" order="170">Format</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="20" order="410">URL [if online]</Field>
+<Field id="44" order="420">File Attachments</Field>
+<Field id="51" order="460">Accessed Date [if online]</Field>
+</Fields>
+</RefType>
+<RefType id="51" name="Podcast">
+<Fields>
+<Field id="2" order="10">Host</Field>
+<Field id="3" order="20">Year</Field>
+<Field id="4" order="30">Title of Podcast Episode</Field>
+<Field id="10" order="40">Producer</Field>
+<Field id="6" order="50">Name of Podcast Series</Field>
+<Field id="21" order="140">Name of Podcast Network (website)</Field>
+<Field id="17" order="160">Day Month</Field>
+<Field id="16" order="170">Format</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="20" order="410">URL</Field>
+<Field id="44" order="420">File Attachments</Field>
+<Field id="51" order="460">Accessed Date</Field>
+</Fields>
+</RefType>
+<RefType id="52" name="Media Release">
+<Fields>
+<Field id="2" order="10">Author [Tip: if org. name abbrev., put here]</Field>
+<Field id="3" order="20">Year</Field>
+<Field id="4" order="30">Title of Media Release</Field>
+<Field id="10" order="40">Org. Author [full name of abbrev. name]</Field>
+<Field id="6" order="50">Name of Website</Field>
+<Field id="17" order="160">Day Month</Field>
+<Field id="16" order="170">Format</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="20" order="410">URL</Field>
+<Field id="44" order="420">File Attachments</Field>
+<Field id="51" order="460">Accessed Date</Field>
+</Fields>
+</RefType>
+<RefType id="53" name=".Interview">
+<Fields>
+<Field id="2" order="10">Interviewee</Field>
+<Field id="3" order="20">Year</Field>
+<Field id="4" order="30">Title</Field>
+<Field id="10" order="40">Interviewer</Field>
+<Field id="6" order="50">Program</Field>
+<Field id="11" order="60">Place Published</Field>
+<Field id="12" order="70">Publisher</Field>
+<Field id="8" order="100">Number</Field>
+<Field id="5" order="110">Pages</Field>
+<Field id="35" order="120">Section</Field>
+<Field id="22" order="130">Director</Field>
+<Field id="21" order="140">Location of Work</Field>
+<Field id="14" order="150">Edition</Field>
+<Field id="17" order="160">Date</Field>
+<Field id="16" order="170">Format</Field>
+<Field id="13" order="180">Translator</Field>
+<Field id="32" order="190">Short Title</Field>
+<Field id="29" order="200">Abbreviation</Field>
+<Field id="24" order="210">ISBN/ISSN</Field>
+<Field id="43" order="220">DOI</Field>
+<Field id="36" order="230">Original Publication</Field>
+<Field id="37" order="240">Reprint Edition</Field>
+<Field id="38" order="250">Reviewed Item</Field>
+<Field id="30" order="340">Accession Number</Field>
+<Field id="31" order="350">Call Number</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="20" order="410">URL</Field>
+<Field id="44" order="420">File Attachments</Field>
+<Field id="39" order="430">Author Address</Field>
+<Field id="40" order="440">Figure</Field>
+<Field id="41" order="450">Caption</Field>
+<Field id="51" order="460">Access Date</Field>
+<Field id="45" order="470">Translated Author</Field>
+<Field id="46" order="480">Translated Title</Field>
+<Field id="47" order="490">Name of Database</Field>
+<Field id="48" order="500">Database Provider</Field>
+<Field id="50" order="510">Language</Field>
+</Fields>
+</RefType>
+<RefType id="54" name=".Discussion Forum">
+<Fields>
+<Field id="2" order="10">Author</Field>
+<Field id="3" order="20">Year</Field>
+<Field id="4" order="30">Title of Message</Field>
+<Field id="6" order="50">Title of List</Field>
+<Field id="11" order="60">Place Published</Field>
+<Field id="12" order="70">Publisher</Field>
+<Field id="7" order="80">Translated Message Title</Field>
+<Field id="9" order="90">Translated List Title</Field>
+<Field id="5" order="110">Pages</Field>
+<Field id="35" order="120">Description</Field>
+<Field id="22" order="130">Author Affiliation</Field>
+<Field id="21" order="140">Attachments</Field>
+<Field id="14" order="150">Date Cited</Field>
+<Field id="17" order="160">Post Date</Field>
+<Field id="16" order="170">Content Type</Field>
+<Field id="13" order="180">Original Author</Field>
+<Field id="32" order="190">Short Title</Field>
+<Field id="29" order="200">Alternate Title</Field>
+<Field id="43" order="220">DOI</Field>
+<Field id="36" order="230">Original Post</Field>
+<Field id="25" order="260">E-Mail Address</Field>
+<Field id="30" order="340">Accession Number</Field>
+<Field id="31" order="350">Call Number</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="20" order="410">URL</Field>
+<Field id="44" order="420">File Attachments</Field>
+<Field id="39" order="430">Author Address</Field>
+<Field id="40" order="440">Figure</Field>
+<Field id="41" order="450">Caption</Field>
+<Field id="51" order="460">Access Date</Field>
+<Field id="45" order="470">Translated Author</Field>
+<Field id="46" order="480">Translated Title</Field>
+<Field id="47" order="490">Name of Database</Field>
+<Field id="48" order="500">Database Provider</Field>
+<Field id="50" order="510">Language</Field>
+</Fields>
+</RefType>
+<RefType id="55" name="Social Media Post">
+<Fields>
+<Field id="2" order="10">Author</Field>
+<Field id="3" order="20">Year</Field>
+<Field id="4" order="30">Title or First 10 Words of Content of Post</Field>
+<Field id="6" order="50">Name of Page</Field>
+<Field id="17" order="160">Day Month</Field>
+<Field id="16" order="170">Type of Post</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="20" order="410">URL</Field>
+<Field id="44" order="420">File Attachments</Field>
+<Field id="51" order="460">Accessed Date</Field>
+</Fields>
+</RefType>
+<RefType id="56" name="Television Program (with acknowledged director)">
+<Fields>
+<Field id="2" order="10">Director</Field>
+<Field id="3" order="20">Year of Release</Field>
+<Field id="4" order="30">Title of Episode</Field>
+<Field id="6" order="50">Name of Series [if applicable]</Field>
+<Field id="11" order="60">Place of Production</Field>
+<Field id="12" order="70">Name of Station or Studio</Field>
+<Field id="7" order="80">Season Number</Field>
+<Field id="8" order="100">Episode Number</Field>
+<Field id="16" order="170">Format</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Synopsis</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="44" order="420">File Attachments</Field>
+</Fields>
+</RefType>
+<RefType id="57" name=".Multimedia Application">
+<Fields>
+<Field id="2" order="10">Rights Holder</Field>
+<Field id="3" order="20">Year</Field>
+<Field id="4" order="30">App Title</Field>
+<Field id="10" order="40">Contributors</Field>
+<Field id="11" order="60">Place Published</Field>
+<Field id="12" order="70">Website Name</Field>
+<Field id="7" order="80">Platform</Field>
+<Field id="9" order="90">Content Rating</Field>
+<Field id="8" order="100">Version</Field>
+<Field id="5" order="110">System Requirements</Field>
+<Field id="14" order="150">Edition</Field>
+<Field id="17" order="160">Date</Field>
+<Field id="16" order="170">Type of Work</Field>
+<Field id="32" order="190">Short Title</Field>
+<Field id="29" order="200">Alternate Title</Field>
+<Field id="43" order="220">DOI</Field>
+<Field id="36" order="230">Original Publication</Field>
+<Field id="37" order="240">Reissue Date</Field>
+<Field id="26" order="270">Credits</Field>
+<Field id="27" order="280">Size/Length</Field>
+<Field id="33" order="300">Format</Field>
+<Field id="30" order="340">Accession Number</Field>
+<Field id="31" order="350">Call Number</Field>
+<Field id="19" order="360">Label</Field>
+<Field id="15" order="370">Keywords</Field>
+<Field id="18" order="380">Abstract</Field>
+<Field id="23" order="390">Notes</Field>
+<Field id="49" order="400">Research Notes</Field>
+<Field id="20" order="410">URL</Field>
+<Field id="44" order="420">File Attachments</Field>
+<Field id="39" order="430">Author Address</Field>
+<Field id="40" order="440">Figure</Field>
+<Field id="41" order="450">Caption</Field>
+<Field id="51" order="460">Access Date</Field>
+<Field id="45" order="470">Translated Author</Field>
+<Field id="46" order="480">Translated Title</Field>
+<Field id="47" order="490">Name of Database</Field>
+<Field id="48" order="500">Database Provider</Field>
+<Field id="50" order="510">Language</Field>
+</Fields>
+</RefType>
+</RefTypes>
